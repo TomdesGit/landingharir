@@ -24,6 +24,10 @@ p {
     margin: 0.3rem;
 }
 
+.contact a{
+  color: #94a3b8;
+}
+
 .section {
   max-width: 720px;
   width: 100%;
