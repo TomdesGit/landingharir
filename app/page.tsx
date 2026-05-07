@@ -30,22 +30,18 @@ export default function Home() {
         }}>
           Harir Avocats
         </h1>
-        <a
-          href="mailto:s.harir@harir-avocats.com"
-          style={{
-            display: 'inline-flex',
-            marginTop: '24px',
-            padding: '14px 24px',
-            borderRadius: '9999px',
-            backgroundColor: 'transparent',
-            border: '1px solid #ffffff',
-            color: '#ffffff',
-            textDecoration: 'none',
-            fontWeight: 600,
-          }}
-        >
-          s.harir@harir-avocats.com
-        </a>
+        <div style={{
+          marginTop: '24px',
+          fontSize: '1rem',
+          color: '#94a3b8',
+          lineHeight: 1.5,
+        }}>
+          <p>77, boulevard du Montparnasse,</p>
+          <p>75006, Paris</p>
+          <p>T. +33 (0)1 86 95 80 45</p>
+          <p>F. +33 (0)1 86 95 80 46</p>
+          <p><a href="mailto:s.harir@harir-avocats.com" style={{ color: '#f8fafc', textDecoration: 'none' }}>s.harir@harir-avocats.com</a></p>
+        </div>
       </section>
     </main>
   )
