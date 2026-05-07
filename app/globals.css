@@ -7,3 +7,45 @@ html, body {
 * {
   box-sizing: border-box;
 }
+
+.main {
+  minHeight: 100vh;
+  width: 100%;
+  display: flex;
+  justifyContent: center;
+  alignItems: center;
+  backgroundColor: #0d1117;
+  color: #f8fafc;
+  padding: 24px;
+  textAlign: center;
+}
+
+.section {
+  maxWidth: 720px;
+  width: 100%;
+}
+
+.construction {
+  margin: 0;
+  fontSize: 1rem;
+  color: #94a3b8;
+}
+
+.title {
+  margin: 16px 0 0;
+  fontSize: clamp(2rem, 5vw, 4rem);
+  lineHeight: 1.05;
+  letterSpacing: -0.04em;
+}
+
+.contact {
+  marginTop: 24px;
+  fontSize: 1rem;
+  color: #94a3b8;
+  lineHeight: 1.5;
+}
+
+.contact a {
+  color: #f8fafc;
+  textDecoration: none;
+}
