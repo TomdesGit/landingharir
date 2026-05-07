@@ -14,7 +14,6 @@ export default function Home() {
           <p>T. +33 (0)1 86 95 80 45</p>
           <p>F. +33 (0)1 86 95 80 46</p>
           <p><a href="mailto:s.harir@harir-avocats.com">s.harir@harir-avocats.com</a></p>
-          <p><a href="https://harir-avocats.com">harir-avocats.com</a></p>
         </div>
       </section>
     </main>
